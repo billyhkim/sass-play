@@ -1,0 +1,72 @@
+
+// === COLORS ===
+$text-color: #222222;
+$theme-color: #170a48;
+$secondary-color: #f27731;
+$ternary-color: #ccf962;
+$link-color: $secondary-color;
+$menu-item-color: white;
+
+// === FONTS ===
+$text-font: Verdana, Arial, sans-serif;
+$headline-font: 'Palatino Linotype', Georgia, serif;
+
+// === SIZES ===
+$content-width: 960px;
+$header-height: 60px;
+$footer-height: 90px;
+
+body {
+  font-family: $text-font;
+  color: $text-color;
+}
+
+h1, h2, h3, h4 {
+  font-family: $headline-font;
+}
+
+p {
+  font-family: $text-font;
+}
+
+a {
+  color: $link-color;
+}
+
+#header {
+  height: $header-height;
+  background-color: $theme-color;
+
+  #main-menu {
+
+    li {
+      display: inline;
+    }
+    
+    a {
+      color: $menu-item-color;
+    }
+
+  }
+  
+  #logo {
+
+  }
+}
+
+#main {
+  width: $content-width;
+  margin-left: auto;
+  margin-right: auto;
+
+  #content {
+  }
+
+  #sidebar {
+  }
+}
+
+#footer {
+  height: $footer-height;
+  background-color: $ternary-color;
+}
